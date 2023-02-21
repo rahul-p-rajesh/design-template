@@ -1,0 +1,60 @@
+{
+  // JS
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  // JSON
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  // Extension: Git
+  "git.rebaseWhenSync": true,
+  "git.autofetch": true,
+  "git.enableSmartCommit": true,
+  // Extension: Prettier
+  "prettier.requireConfig": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  // Extension: ESLint
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true,
+    "source.organizeImports": false,
+  },
+  "eslint.validate": [
+    "javascript",
+    "typescript",
+    "javascriptreact",
+    "typescriptreact"
+  ],
+  "eslint.format.enable": true,
+  // Package manager Configs
+  "eslint.packageManager": "yarn",
+  "npm.packageManager": "yarn",
+  // Extension: cSpell
+  "cSpell.words": [
+    "Customizer"
+  ],
+  "search-node-modules.path": "node_modules",
+  "markdown.extension.toc.updateOnSave": false,
+  "workbench.colorCustomizations": {
+    "activityBar.activeBackground": "#f3b881",
+    "activityBar.background": "#f3b881",
+    "activityBar.foreground": "#15202b",
+    "activityBar.inactiveForeground": "#15202b99",
+    "activityBarBadge.background": "#0e924d",
+    "activityBarBadge.foreground": "#e7e7e7",
+    "commandCenter.border": "#15202b99",
+    "sash.hoverBorder": "#f3b881",
+    "statusBar.background": "#ee9e53",
+    "statusBar.foreground": "#15202b",
+    "statusBarItem.hoverBackground": "#e98425",
+    "statusBarItem.remoteBackground": "#ee9e53",
+    "statusBarItem.remoteForeground": "#15202b",
+    "titleBar.activeBackground": "#ee9e53",
+    "titleBar.activeForeground": "#15202b",
+    "titleBar.inactiveBackground": "#ee9e5399",
+    "titleBar.inactiveForeground": "#15202b99"
+  },
+  "peacock.color": "#ee9e53"
+}
